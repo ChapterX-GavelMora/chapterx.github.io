@@ -39,6 +39,9 @@
   Navbar
   ------
 */
+:root{
+  --theme-color: #fbdc44;
+}
 
 .navbar-dark {
   background-color: black;
@@ -66,7 +69,7 @@
 /* Home BG Parallax */
 
 #home-bg-parallax > .bg-parallax {
-  background: url("../images/bg-parallax.webp");
+  background: url("../images/bg-parallax.jpg");
 }
 
 
@@ -641,13 +644,10 @@
 */
 
 .footer {
-  padding: 50px 0 32px;
-}
-.footer-logo {
-  padding-bottom: 25px;
+  padding: 20px 0 20px;
 }
 .footer-logo img {
-  width: 120px;
+  height: 5rem;
 }
 .footer .disclaimer {
   padding-bottom: 25px;
@@ -693,6 +693,7 @@
   top: 0;
   left: 0;
   height: 100%;
+  width: 100%;
   margin: auto;
 }
 
@@ -711,3 +712,19 @@
     margin-bottom: 0;
   }
 }
+
+.page-loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--theme-color);
+  z-index: 9999;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease-in-out;
+}
+
