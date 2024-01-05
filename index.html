@@ -213,11 +213,12 @@
       <div class="row">
         <div class="col-sm-6 col-md-7">
           <div class="row">
-            <h2 class="font-family-alt font-weight-700 sm-title-large title-extra-large-2 text-gray-dark-2">
-              About
-            </h2>
-            <img src="./res/images/logos/logo.svg" style="object-fit: contain; height: 100%;" alt="">
-          </div>
+            <div class="col-sm-12">
+              <h2 class="font-family-alt font-weight-700 sm-title-large title-extra-large-2 text-gray-dark-2">
+                About
+              </h2>
+              <img src="./res/images/logos/logo.svg" style="object-fit: contain; height: 100%; width: auto; max-width: 90%;" alt="">  
+            </div></div>
           <span class="bg-base-color margin-4 no-margin-bottom no-margin-rl separator-line-extra-thick-long"></span>
           <div class="row">
             <div class="col-md-12">
@@ -612,7 +613,10 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="footer-logo xs-text-center">
-            <img src="./res/images/logos/gavelmora_logo.png" alt="">
+            <picture>
+              <source media="(max-width: 767px)" srcset="./res/images/logos/gavelmora_logo_centered.png">
+              <img src="./res/images/logos/gavelmora_logo.png" alt="">
+            </picture>
           </div>
           <!-- //.footer-logo -->
 

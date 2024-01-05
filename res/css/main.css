@@ -1850,7 +1850,7 @@ h6 {
 .navbar .navbar-nav>li.active>a:before,
 .navbar .navbar-toggle .icon-bar,
 .navbar.navbar-white.shrink {
-  background-color: #fff
+  background-color: #000;
 }
 
 .navbar .navbar-brand,
@@ -4732,9 +4732,13 @@ section.pull-up {
 }
 
 @media (max-width:1199px) {
+  .navbar .navbar-brand img{
+    filter: invert(0%) !important;
+  }
+  .navbar .navbar-nav>li>a,
   .navbar.navbar-white .navbar-brand,
   .navbar.navbar-white .navbar-nav>li>a {
-    color: #000
+    color: #000 !important;
   }
   .navbar .container {
     width: 100%
@@ -4746,7 +4750,7 @@ section.pull-up {
     float: none!important
   }
   .navbar.navbar-white {
-    background-color: #fff;
+    background-color: #000;
     opacity: .96
   }
   .navbar.navbar-white .navbar-brand img.logo-navbar-dark {
@@ -4755,13 +4759,15 @@ section.pull-up {
   .navbar.navbar-white .navbar-brand img.logo-navbar-white {
     opacity: 1
   }
+  .navbar .navbar-toggle,
   .navbar.navbar-white .navbar-toggle {
-    border: 1px solid #000
+    border: 1px solid #000 !important;
   }
+  .navbar.navbar-toggle .icon-bar,
   .navbar.navbar-white .navbar-nav>li.active>a:before,
   .navbar.navbar-white .navbar-toggle .icon-bar {
-    background-color: #000
-  }
+    background-color: #000 !important;
+  } 
   .navbar.navbar-white .navbar-collapse {
     border-top: 1px solid rgba(0, 0, 0, .08)
   }
