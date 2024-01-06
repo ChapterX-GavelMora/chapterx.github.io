@@ -38,7 +38,7 @@ Vue.createApp({
             "phoneNumber": "+94 77 067 6760"
           },
           {
-            "name": "Inodce Fernando",
+            "name": "Inodee Fernando",
             "position": "Vice President",
             "email": "inodee.fernando@gmail.com",
             "phoneNumber": "+94 77 067 6760"
