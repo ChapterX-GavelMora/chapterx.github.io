@@ -263,6 +263,12 @@
                     <span class="display-block font-weight-700 letter-spacing-1 text-medium text-black">
                       {{speaker.description}}
                     </span>
+                    <br>
+                    <a v-bind:href="speaker.link">
+                      <span class="display-block font-weight-700 letter-spacing-1 text-medium text-black" style="text-decoration: underline;">
+                        {{speaker.event}}
+                      </span>
+                    </a>
                   </div>
                   <!-- //.display-table-cell -->
                 </div>
