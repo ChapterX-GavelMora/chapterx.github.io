@@ -29,7 +29,34 @@ Vue.createApp({
               event: "Speech Olympiad 2023",
               link:"https://www.facebook.com/media/set?vanity=speech.olympiad.uom&set=a.758347263006290"
             }
+        ],
+        contact:[
+          {
+            "name": "Umesha Thilakarathna",
+            "position": "President",
+            "email": "tilakarathnaua.20@uom.lk",
+            "phoneNumber": "+94 77 067 6760"
+          },
+          {
+            "name": "Inodce Fernando",
+            "position": "Vice President",
+            "email": "inodee.fernando@gmail.com",
+            "phoneNumber": "+94 77 067 6760"
+          },
+          {
+            "name": "Shenali Liyanage",
+            "position": "Assistant Vice President",
+            "email": "shenali.ruwanya@gmail.com",
+            "phoneNumber": "+94 71 474 7845"
+          },
+          {
+            "name": "Damsith Adikari",
+            "position": "Co-chair ChapterX",
+            "email": "damsithadikari2001@gmail.com",
+            "phoneNumber": "+94 71 384 3356"
+          }
         ]
+        
     };
   },
   methods: {},
