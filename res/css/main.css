@@ -324,7 +324,12 @@ h6 {
 .font-weight-900 {
   font-weight: 900!important
 }
-
+.fa-facebook,
+.fa-instagram {
+  color: white;
+  
+  
+}
 .letter-spacing-1 {
   letter-spacing: 1px!important
 }
@@ -1169,6 +1174,10 @@ h6 {
 .margin-rl-auto {
   margin-right: auto!important;
   margin-left: auto!important
+}
+.margin-rl-10 {
+  margin-right: 10%!important;
+  margin-left: 10%!important
 }
 
 .margin-top-16p {
