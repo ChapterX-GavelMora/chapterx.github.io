@@ -633,7 +633,7 @@ h6 {
   justify-content: flex-end;
 }
 .media-header-margin{
-  margin: 0 25px;
+  margin: 25px;
 }
 .no-border-tb,
 .no-border-top {
@@ -1536,8 +1536,8 @@ h6 {
   left: 50%!important
 }
 .rectangle{
-  height: 90px;
-  width: 13px;
+  height: 105px;
+  width: 14px;
 }
 
 .separator-line,
