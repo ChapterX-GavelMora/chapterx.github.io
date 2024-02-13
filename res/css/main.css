@@ -5,6 +5,11 @@
   --theme-color: #fbdc44;
 }
 
+.alignment{
+  text-align: right;
+
+}
+
 body,
 html,
 ul {
@@ -276,6 +281,10 @@ h6 {
   font-size: 80px!important;
   line-height: 80px!important
 }
+.title-extra-large-6 {
+  font-size: 90px!important;
+  line-height: 90px!important
+}
 
 .title-big {
   font-size: 100px!important;
@@ -300,6 +309,9 @@ h6 {
 .font-family-alt {
   font-family: Catamaran, sans-serif!important
 }
+.font-family-media{
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
 .font-weight-100 {
   font-weight: 100!important
@@ -323,6 +335,36 @@ h6 {
 
 .font-weight-900 {
   font-weight: 900!important
+}
+.fa-facebook {
+  color: white;
+  
+}
+.icon{
+  text-align: center;
+}
+.icon-label {
+  display: block;
+  font-size: 14px; 
+  color: #ffffff; 
+}
+.fa-instagram{
+  color:black;
+  text-align: center; 
+}
+.fa-facebook-link{
+  color: white;
+}
+.facebook-footer{
+  color: black;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  
 }
 
 .letter-spacing-1 {
@@ -414,8 +456,8 @@ h6 {
 }
 
 .bg-parallax {
-  height: 150%;
-  top: -75%
+  height: 180%;
+  top: -60%
 }
 
 .bg-position-top {
@@ -585,7 +627,14 @@ h6 {
 .border-extra-thick {
   border-width: 4px!important
 }
-
+.media-header{
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.media-header-margin{
+  margin: 25px;
+}
 .no-border-tb,
 .no-border-top {
   border-top: none!important
@@ -697,6 +746,14 @@ h6 {
 .btn.btn-border-thick,
 .btn.btn-border-thick:focus {
   border-width: 4px!important
+}
+.circle-insta{
+  height: 99px;
+  width: 99px;
+  background-color: #bbb;
+  border-radius: 50%;
+  padding-top: 4px;
+  
 }
 
 .display-block {
@@ -969,7 +1026,7 @@ h6 {
 }
 
 .height-50 {
-  height: 50%!important
+  height: 55%!important
 }
 
 .height-100 {
@@ -1169,6 +1226,10 @@ h6 {
 .margin-rl-auto {
   margin-right: auto!important;
   margin-left: auto!important
+}
+.margin-rl-10 {
+  margin-right: 10%!important;
+  margin-left: 10%!important
 }
 
 .margin-top-16p {
@@ -1474,6 +1535,10 @@ h6 {
 .position-left-50 {
   left: 50%!important
 }
+.rectangle{
+  height: 105px;
+  width: 14px;
+}
 
 .separator-line,
 .separator-line-extra-thick,
@@ -1727,7 +1792,11 @@ h6 {
 .gallery-grid figure:hover figcaption .display-table {
   margin-bottom: 0
 }
-
+.facebook-logo{
+  background-color: white;
+  border-radius: 50%;
+  padding-bottom: 4px;
+}
 .mfp-bg {
   background: #fefefe
 }
