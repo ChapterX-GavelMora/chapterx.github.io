@@ -1,0 +1,23 @@
+# .gitignore for a vanilla HTML project
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node modules
+node_modules/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore dist folder
+dist/
+
+# Ignore cache files
+*.log
+*.cache
+*.tmp
+*.bak
+
+# Ignore all .env files
+*.env
