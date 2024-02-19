@@ -1540,6 +1540,20 @@ h6 {
   width: 14px;
 }
 
+@media (max-width: 768px) {
+  /* rectangle in mobile view */
+  .rectangle{
+    height: 80px;
+    width: 14px;
+  }
+
+  #social-media-links li .social-media-container{
+    transform: scale(0.8);  
+  }
+}
+
+
+
 .separator-line,
 .separator-line-extra-thick,
 .separator-line-extra-thick-full,
